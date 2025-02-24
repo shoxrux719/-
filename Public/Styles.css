@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.terminal {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    display: inline-block;
+}
+
+button {
+    background-color: black;
+    color: #00ff00;
+    font-size: 16px;
+    border: 2px solid #00ff00;
+    padding: 10px;
+    cursor: pointer;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+.cursor {
+    display: inline-block;
+    font-size: 20px;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
